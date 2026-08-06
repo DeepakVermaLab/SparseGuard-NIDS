@@ -1,0 +1,2 @@
+from sparseguard_pipeline import train_sparseguard
+train_sparseguard()
