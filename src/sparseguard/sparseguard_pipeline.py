@@ -45,9 +45,9 @@ def locate_project_root() -> Path:
     root = _find_upward_marker(here.parent, 'README.md')
     if root and (root / 'src' / 'sparseguard_pipeline.py').exists():
         return root
-    drive = Path('/content/drive')
+    drive = Path('/users/')
     if drive.exists():
-        for base in [drive / 'MyDrive', drive]:
+        for base in [drive]:
             for candidate in base.rglob('IMPLEMENTATION/src/sparseguard_pipeline.py'):
                 return candidate.parents[1]
     raise FileNotFoundError('Could not locate IMPLEMENTATION/src/sparseguard_pipeline.py after mounting Drive.')
@@ -57,9 +57,9 @@ def locate_dataset_root() -> Path:
     env = os.environ.get('SPARSEGUARD_DATASET_ROOT')
     if env and (Path(env) / 'X-IIoTID' / 'X-IIoTID dataset.csv').exists():
         return Path(env)
-    drive = Path('/content/drive')
+    drive = Path('/users/')
     if drive.exists():
-        for base in [drive / 'MyDrive', drive]:
+        for base in [drive]:
             matches = list(base.rglob('X-IIoTID/X-IIoTID dataset.csv'))
             if matches:
                 return matches[0].parents[1]
