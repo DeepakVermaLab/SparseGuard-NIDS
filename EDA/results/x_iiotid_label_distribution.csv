@@ -1,0 +1,20 @@
+class1,count
+Normal,421417
+RDOS,141261
+Scanning_vulnerability,52852
+Generic_scanning,50277
+BruteForce,47241
+MQTT_cloud_broker_subscription,23524
+Discovering_resources,23148
+Exfiltration,22134
+insider_malcious,17447
+Modbus_register_reading,5953
+False_data_injection,5094
+C&C,2863
+Dictionary,2572
+TCP Relay,2119
+fuzzing,1313
+Reverse_shell,1016
+crypto-ransomware,458
+MitM,117
+Fake_notification,28
