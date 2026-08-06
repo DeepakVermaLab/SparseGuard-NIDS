@@ -1,0 +1,2 @@
+from sparseguard_pipeline import write_ablation_plan
+write_ablation_plan()
