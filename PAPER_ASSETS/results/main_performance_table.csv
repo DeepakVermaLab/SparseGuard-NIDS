@@ -1,0 +1,10 @@
+section,metric,value,higher_is_better
+main_x_iiotid_test,accuracy,0.9968745394704525,True
+main_x_iiotid_test,balanced_accuracy,0.9968415084357354,True
+main_x_iiotid_test,precision,0.9979372832881982,True
+main_x_iiotid_test,recall,0.9956315889148413,True
+main_x_iiotid_test,f1,0.9967831027574308,True
+main_x_iiotid_test,mcc,0.9937465461691144,True
+main_x_iiotid_test,roc_auc,0.9998646884734064,True
+main_x_iiotid_test,average_precision,0.9998712202253786,True
+main_x_iiotid_test,brier,0.0025629194634204143,False

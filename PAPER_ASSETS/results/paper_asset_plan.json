@@ -1,0 +1,17 @@
+{
+  "figures": [
+    "architecture_diagram.png",
+    "training_curves.png",
+    "feature_importance.png",
+    "attack_success_curve.png",
+    "cross_dataset_curves.png"
+  ],
+  "tables": [
+    "dataset_statistics_table.csv",
+    "main_performance_table.csv",
+    "cross_dataset_table.csv",
+    "ablation_table.csv",
+    "robustness_table.csv",
+    "runtime_resource_table.csv"
+  ]
+}

@@ -1,0 +1,4 @@
+methodology_component,paper_claim_supported,primary_result,result_file
+XAI method agreement,Gradient-input and KernelSHAP provide complementary but auditable feature-importance evidence.,Spearman rho=0.6898,xai_method_feature_agreement.csv
+Attribution stability under sparse attack,The model explanation remains quantifiable under attribution-guided perturbation.,Mean cosine=0.8377; evasion=0.0176,attribution_stability_under_attack.csv
+Robustness/XAI coupling,Top-k feature budgets reveal how much evasion is possible when perturbations are constrained to explanation-ranked features.,epsilon=0.10 rows=5,ROBUSTNESS/results/attack_success_by_epsilon.csv

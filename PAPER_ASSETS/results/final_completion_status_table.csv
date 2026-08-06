@@ -1,0 +1,10 @@
+area,status,evidence
+EDA,complete,"eda_summary.json plus distributions, describe, heatmap, semantic groups"
+PREPROCESSING,complete,leakage-safe parquet splits and preprocessing_manifest.json
+EXPERIMENT,complete,"trained SparseGuard checkpoint, training history, held-out metrics and plots"
+ABLATION,complete,"4 variants, all below main model test F1"
+EVALUATION,complete,3-dataset external validation with mixed holdout and few-shot adaptation
+XAI,complete,gradient-input attribution and KernelSHAP feature/group tables and plots
+ROBUSTNESS,complete,"FGSM, PGD, top-k masked PGD, VAE reconstruction detector"
+PROFILING,complete,"runtime, FLOPs proxy, energy proxy; CPU device recorded"
+PAPER_ASSETS,complete,final consolidated tables and artifact index generated

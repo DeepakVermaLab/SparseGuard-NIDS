@@ -1,0 +1,10 @@
+q1_reviewer_requirement,evidence_file,status
+Formal mathematical threat model,formal_threat_model.json; FORMAL_THREAT_MODEL_AND_PROBLEM_FORMULATION.md,PASS
+Held-out statistical confidence intervals,main_model_bootstrap_confidence_intervals.csv,PASS
+Repeated-seed external/domain validation,repeated_domain_generalization_metrics.csv,PASS
+Leave-one-dataset-out stress protocol,repeated_domain_generalization_confidence_intervals.csv,PASS
+Few-shot target adaptation under domain shift,paired_domain_shift_significance_tests.csv,PASS
+Calibration and threshold reliability,calibration_reliability_bins.csv; threshold_sensitivity_metrics.csv,PASS
+Adaptive adversary analysis,adaptive_adversary_budget_summary.csv,PASS
+Complexity-performance Pareto evidence,complexity_performance_pareto_table.csv,PASS
+Robust-XAI methodology evidence,ROBUST_XAI_FRAMEWORK/results/robust_xai_framework_summary.json,PASS
