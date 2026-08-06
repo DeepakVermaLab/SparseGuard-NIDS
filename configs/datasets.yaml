@@ -1,0 +1,4 @@
+datasets:
+  x_iiotid: {expected_rows: 820834, expected_columns: 68, file: X-IIoTID/X-IIoTID dataset.csv}
+  cic_iiot_2025: {file: CIC-IIoT-2025/dataset/processed_files/all_attack_benign_samples.tar.xz}
+  cic_ids2017: {expected_rows: 2830743, expected_csv_files: 8, file: CIC-IDS2017/CIC-IDS-2017/CSVs/MachineLearningCSV.zip}

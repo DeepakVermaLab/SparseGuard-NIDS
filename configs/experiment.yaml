@@ -1,0 +1,6 @@
+seed: 42
+batch_size: 4096
+max_epochs: 80
+learning_rate: 0.001
+patience: 12
+track_time_energy_flops: true
