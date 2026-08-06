@@ -55,7 +55,7 @@ Note: the folder name `DOCUMANTATION` is preserved from the finalized Drive pack
 Create a Python environment and install dependencies:
 
 ```bash
-cd /Users/darshdave/Documents/DeepakVermaLab/SparseGuard-NIDS
+cd /users/
 python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
@@ -72,7 +72,7 @@ export SPARSEGUARD_ROOT="$PWD"
 If running full data-dependent stages, also point the code to the dataset root:
 
 ```bash
-export SPARSEGUARD_DATASET_ROOT="/path/to/datasets"
+export SPARSEGUARD_DATASET_ROOT="/users/"
 ```
 
 ## Run Commands
