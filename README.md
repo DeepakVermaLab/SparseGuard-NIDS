@@ -25,17 +25,10 @@ SparseGuard-NIDS/
 ├── configs/                     # Dataset and experiment configuration
 ├── notebooks/                   # Full project / controller notebooks
 ├── EDA/                         # Dataset inspection and exploratory results
-├── PREPROCESSING/               # Cleaning, encoding, scaling, split creation
 ├── EXPERIMENT/                  # Main SparseGuard training and test outputs
 ├── ABLATION/                    # Component-removal study assets
 ├── EVALUATION/                  # External and cross-dataset validation assets
-├── XAI/                         # Attribution and semantic-group explanation assets
-├── ROBUSTNESS/                  # Adversarial and reconstruction robustness assets
-├── ROBUST_XAI_FRAMEWORK/        # Robustness-aware XAI audit assets
-├── Q1_VALIDATION/               # Q1 SCI readiness validation assets
-├── PROFILING/                   # Runtime, memory, FLOPs, and energy-proxy assets
-├── PAPER_ASSETS/                # Paper-ready tables, final audits, and version markers
-└── logs/                        # Root log notes
+└── PAPER_ASSETS/                # Paper-ready tables, final audits, and version markers
 ```
 
 Each major stage follows this documentation format:
@@ -101,22 +94,17 @@ Official experiments were designed to run from Google Colab with Drive mounted. 
 1. `notebooks/00_FULL_PROJECT_CONTROL_COLAB.ipynb`
 2. `notebooks/00_RUN_ALL_COLAB.ipynb`
 3. `EDA/notebooks/01_EDA.ipynb`
-4. `PREPROCESSING/notebooks/02_PREPROCESSING.ipynb`
-5. `EXPERIMENT/notebooks/03_TRAIN_SPARSEGUARD.ipynb`
-6. `ABLATION/notebooks/04_ABLATION.ipynb`
-7. `ROBUSTNESS/notebooks/05_ROBUSTNESS_EVAL.ipynb`
-8. `EVALUATION/notebooks/06_EXTERNAL_VALIDATION.ipynb`
-9. `ROBUST_XAI_FRAMEWORK/notebooks/01_ROBUST_XAI_FRAMEWORK_COLAB.ipynb`
-10. `Q1_VALIDATION/notebooks/01_Q1_SCI_VALIDATION_COLAB.ipynb`
+4. `EXPERIMENT/notebooks/03_TRAIN_SPARSEGUARD.ipynb`
+5. `ABLATION/notebooks/04_ABLATION.ipynb`
+6. `EVALUATION/notebooks/06_EXTERNAL_VALIDATION.ipynb`
 
 After each notebook run, save outputs under that stage's `results/` folder and write or update the run note under `DOCUMANTATION/`.
 
-## Outputs and Logs
+## Outputs and Records
 
 - Stage outputs belong in `results/`.
 - Human-readable run notes belong in `DOCUMANTATION/`.
 - Final paper tables and audit files belong in `PAPER_ASSETS/`.
-- The Drive root `logs` folder was empty when this package was prepared; see `logs/README.md`.
 
 ## Final Version Evidence
 
