@@ -1,0 +1,2 @@
+from sparseguard_pipeline import write_external_validation_plan
+write_external_validation_plan()
