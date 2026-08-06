@@ -1,0 +1,15 @@
+{
+  "best_val_f1": 0.9970548456005967,
+  "device": "cuda",
+  "epochs": 54,
+  "semantic_groups": {
+    "byte_volume": 8,
+    "flow_timing": 11,
+    "packet_volume": 5,
+    "port_addressing": 2,
+    "protocol_semantics": 3,
+    "rate_dynamics": 3,
+    "statistical_flags": 14,
+    "unknown_numeric": 15
+  }
+}
