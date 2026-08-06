@@ -1,0 +1,39 @@
+{
+  "variants": [
+    {
+      "attention": 1,
+      "name": "full_sparseguard",
+      "reconstruction": 1,
+      "semantic_branches": 1,
+      "semantic_validation": 1
+    },
+    {
+      "attention": 0,
+      "name": "no_attention",
+      "reconstruction": 1,
+      "semantic_branches": 1,
+      "semantic_validation": 1
+    },
+    {
+      "attention": 1,
+      "name": "no_reconstruction",
+      "reconstruction": 0,
+      "semantic_branches": 1,
+      "semantic_validation": 1
+    },
+    {
+      "attention": 1,
+      "name": "no_semantic_validation",
+      "reconstruction": 1,
+      "semantic_branches": 1,
+      "semantic_validation": 0
+    },
+    {
+      "attention": 0,
+      "name": "single_path_mlp",
+      "reconstruction": 0,
+      "semantic_branches": 0,
+      "semantic_validation": 0
+    }
+  ]
+}
