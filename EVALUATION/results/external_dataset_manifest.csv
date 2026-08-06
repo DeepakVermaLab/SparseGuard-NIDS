@@ -1,0 +1,4 @@
+dataset,rows,features_before_semantic_aggregation,semantic_features,label_column,target_distribution,semantic_group_counts,load_and_aggregate_seconds
+X-IIoTID,240000,56,48,class1,"{0: 120000, 1: 120000}","{'protocol_semantics': 1, 'flow_timing': 11, 'packet_volume': 5, 'byte_volume': 6, 'rate_dynamics': 3, 'port_addressing': 2, 'statistical_flags': 14, 'unknown_numeric': 14}",45.035
+CIC-IIoT-2025,240000,57,48,label1,"{0: 120000, 1: 120000}","{'protocol_semantics': 13, 'flow_timing': 11, 'packet_volume': 13, 'byte_volume': 6, 'rate_dynamics': 0, 'port_addressing': 0, 'statistical_flags': 12, 'unknown_numeric': 2}",73.775
+CIC-IDS2017,240000,78,48,Label,"{0: 120000, 1: 120000}","{'protocol_semantics': 12, 'flow_timing': 23, 'packet_volume': 37, 'byte_volume': 3, 'rate_dynamics': 0, 'port_addressing': 1, 'statistical_flags': 1, 'unknown_numeric': 1}",8.392

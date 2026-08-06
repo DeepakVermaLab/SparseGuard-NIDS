@@ -1,0 +1,18 @@
+{
+  "external": [
+    "CIC-IIoT-2025",
+    "CIC-IDS2017"
+  ],
+  "method": "semantic_group_adapter_binary_validation",
+  "metrics": [
+    "accuracy",
+    "balanced_accuracy",
+    "precision",
+    "recall",
+    "f1",
+    "roc_auc",
+    "mcc",
+    "brier"
+  ],
+  "train": "X-IIoTID"
+}
